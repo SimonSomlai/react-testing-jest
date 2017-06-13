@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDo App INTEGRATION TESTS should render 1`] = `
+<App>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": "100px",
+      }
+    }
+  >
+    <h1>
+      Create a new note
+    </h1>
+    <form>
+      <input
+        className="note-title form-control form-inline"
+        type="text"
+      />
+      <textarea
+        className="note-description form-control form-inline"
+      />
+      <button
+        className="create-note"
+        onClick={[Function]}
+        type="submit"
+      >
+        Create Note
+      </button>
+    </form>
+    <div
+      className="row"
+    >
+      <h1
+        className="text-center"
+        style={
+          Object {
+            "marginBottom": "50px",
+          }
+        }
+      >
+        My Notes
+      </h1>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Pick Up Paycheck",
+            "id": 1,
+            "title": "First Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                First Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Pick Up Paycheck
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Cash Paycheck",
+            "id": 2,
+            "title": "Second Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                Second Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Cash Paycheck
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Get Some Milk",
+            "id": 3,
+            "title": "Third Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                Third Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Get Some Milk
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+    </div>
+  </div>
+</App>
+`;
+
+exports[`ToDo App INTEGRATION TESTS should render correctly 1`] = `
+<App>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": "100px",
+      }
+    }
+  >
+    <h1>
+      Create a new note
+    </h1>
+    <form>
+      <input
+        className="note-title form-control form-inline"
+        type="text"
+      />
+      <textarea
+        className="note-description form-control form-inline"
+      />
+      <button
+        className="create-note"
+        onClick={[Function]}
+        type="submit"
+      >
+        Create Note
+      </button>
+    </form>
+    <div
+      className="row"
+    >
+      <h1
+        className="text-center"
+        style={
+          Object {
+            "marginBottom": "50px",
+          }
+        }
+      >
+        My Notes
+      </h1>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Pick Up Paycheck",
+            "id": 1,
+            "title": "First Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                First Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Pick Up Paycheck
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Cash Paycheck",
+            "id": 2,
+            "title": "Second Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                Second Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Cash Paycheck
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+      <Note
+        deleteNote={[Function]}
+        note={
+          Object {
+            "description": "Get Some Milk",
+            "id": 3,
+            "title": "Third Task",
+          }
+        }
+        updateNote={[Function]}
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="panel panel-default"
+          >
+            <div
+              className="panel-heading"
+            >
+              <h3
+                className="panel-title"
+              >
+                Third Task
+              </h3>
+            </div>
+            <div
+              className="panel-body"
+            >
+              Get Some Milk
+            </div>
+            <button
+              className="btn btn-primary edit-button"
+              onClick={[Function]}
+            >
+              Edit Note
+            </button>
+            <button
+              className="btn btn-primary delete-button"
+              onClick={[Function]}
+            >
+              Delete Note
+            </button>
+          </div>
+        </div>
+      </Note>
+    </div>
+  </div>
+</App>
+`;
