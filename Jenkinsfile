@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building..'
-        sh '''npm i
+        sh '''xcode-select --install
+sudo xcode-select --switch /Library/Developer/CommandLineTools
 npm run build'''
       }
     }
