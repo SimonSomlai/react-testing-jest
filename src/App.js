@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       notes: [
         {
-          id: 1,
+          id: 10,
           title: "First Tas",
           description: "Pick Up Paycheck"
         }, {
