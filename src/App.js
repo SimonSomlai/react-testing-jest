@@ -10,7 +10,7 @@ class App extends Component {
       notes: [
         {
           id: 20,
-          title: "First Task",
+          title: "First Tas",
           description: "Pick Up Paycheck"
         }, {
           id: 2,
